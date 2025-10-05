@@ -16,7 +16,7 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_use_double_quant=True,
     llm_int8_enable_fp32_cpu_offload=True)
 
-model_name = '/home/ashish/llama_inference/openBIOLLM'
+model_name = 'LLAMA_3.3_70B'
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(
     model_name,device_map='cuda:1', quantization_config= bnb_config)
