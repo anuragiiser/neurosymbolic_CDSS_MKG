@@ -12,10 +12,10 @@ The project explores how structured medical knowledge graphs can enhance the rea
 
 Large Language Models (LLMs) have shown strong performance in clinical reasoning tasks using Electronic Health Records (EHRs) and clinical notes. However, they often lack explicit structured medical knowledge.
 
-This repository implements a **neurosymbolic framework** that augments medical LLMs with information retrieved from Medical Knowledge Graphs (MKGs), improving diagnostic reasoning across multiple prompting strategies such as:
+This repository implements a **neurosymbolic framework** that augments medical LLMs with information retrieved from Medical Knowledge Graphs (MKGs), improving diagnostic reasoning across multiple frameworks such as:
 
-- Zero-shot prompting
-- Few-shot prompting
+- Zero-shot
+- Few-shot
 - RAG
 
 In addition to using existing MKGs, this work also introduces a **PubMed-based Medical Knowledge Graph (PMKG)** integrating:
@@ -51,7 +51,7 @@ The framework was evaluated on:
 - MIMIC-III
 - MIMIC-IV
 
-using multiple medical LLMs and prompting strategies.
+using multiple medical LLMs.
 
 Results demonstrate consistent improvements in diagnostic performance through knowledge graph augmentation.
 
