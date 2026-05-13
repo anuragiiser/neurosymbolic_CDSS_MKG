@@ -35,7 +35,7 @@ In addition to using existing MKGs, this work also introduces a **PubMed-based M
 │   └── Code for constructing the PubMed-based Medical Knowledge Graph
 │
 ├── llm_inferences/
-│   └── Code for running LLM-based clinical inference experiments
+│   └── Code for running LLM-based inference experiments
 │
 ├── dataset/
 │
